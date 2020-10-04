@@ -8,9 +8,9 @@ import {
 	commentTypeDef,
 	commentQueries,
 	commentMutations
-} from './supermarket/categories/typeDefs';
+} from './westudy/comments/typeDefs';
 
-import categoryResolvers from './supermarket/categories/resolvers';
+import categoryResolvers from './westudy/comments/resolvers';
 
 // merge the typeDefs
 const mergedTypeDefs = mergeSchemas(
